@@ -1,3 +1,5 @@
+require 'pp'
+
 def nyc_pigeon_organizer(data)
   # write your code here!
   
@@ -27,7 +29,8 @@ def nyc_pigeon_organizer(data)
     i += 1 
   end
   
-puts "result is #{result}"
+puts "result is..."
+pp result
   
 #  i = 0
 #  while i < sorted_names.length do
