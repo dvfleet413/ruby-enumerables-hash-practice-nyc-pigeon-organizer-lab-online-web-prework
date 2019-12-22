@@ -49,17 +49,15 @@ def nyc_pigeon_organizer(data)
     i += 1 
   end
   
+  i = 0
+  while i < sorted_names.length do
+    name = sorted_names[i]
+    data[:lives].each do |key, value|
+    result[name][:lives] << key.to_s  if value.include?(sorted_names[i])
+    end
+    i += 1 
+  end
   puts "result is..."
   pp result
-  
-#  i = 0
-#  while i < sorted_names.length do
-#    name = sorted_names[i]
-#    data[:lives].each do |key, value|
-#    result[name][:lives] << key.to_s  if value.include?(sorted_names[i])
-#    end
-#    i += 1 
-#  end
-#  puts "result is #{result}"
-#  result
+  result
 end
