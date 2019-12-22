@@ -27,10 +27,13 @@ def nyc_pigeon_organizer(data)
     i += 1 
   end
   
-  # Iterate through source hash again, this time
-  # adding new keys to each pigeon hash with 
-  # appropriate values
+
   
+  i = 0
+  while i < sorted_names.length do
+    
+    i += 1 
+  end
   
   
 end
