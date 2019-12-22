@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
   sorted_names.sort!
   
 
-  result = []
+  result = {}
   i = 0 
   while i < sorted_names.length do
     name = sorted_names[i]
