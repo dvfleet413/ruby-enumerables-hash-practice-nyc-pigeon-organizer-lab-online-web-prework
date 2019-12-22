@@ -27,34 +27,34 @@ def nyc_pigeon_organizer(data)
     i += 1 
   end
   
-
+puts "result is #{result}"
   
-  i = 0
-  while i < sorted_names.length do
-    name = sorted_names[i]
-    data[:color].each do |key, value|
-    result[name][:color] << key.to_s  if value.include?(sorted_names[i])
-    end
-    i += 1 
-  end
+#  i = 0
+#  while i < sorted_names.length do
+#    name = sorted_names[i]
+#    data[:color].each do |key, value|
+#    result[name][:color] << key.to_s  if value.include?(sorted_names[i])
+#    end
+#    i += 1 
+#  end
   
-  i = 0
-  while i < sorted_names.length do
-    name = sorted_names[i]
-    data[:gender].each do |key, value|
-    result[name][:gender] << key.to_s  if value.include?(sorted_names[i])
-    end
-    i += 1 
-  end
+#  i = 0
+#  while i < sorted_names.length do
+#    name = sorted_names[i]
+#    data[:gender].each do |key, value|
+#    result[name][:gender] << key.to_s  if value.include?(sorted_names[i])
+#    end
+#    i += 1 
+#  end
   
-  i = 0
-  while i < sorted_names.length do
-    name = sorted_names[i]
-    data[:lives].each do |key, value|
-    result[name][:lives] << key.to_s  if value.include?(sorted_names[i])
-    end
-    i += 1 
-  end
-  puts "result is #{result}"
-  result
+#  i = 0
+#  while i < sorted_names.length do
+#    name = sorted_names[i]
+#    data[:lives].each do |key, value|
+#    result[name][:lives] << key.to_s  if value.include?(sorted_names[i])
+#    end
+#    i += 1 
+#  end
+#  puts "result is #{result}"
+#  result
 end
