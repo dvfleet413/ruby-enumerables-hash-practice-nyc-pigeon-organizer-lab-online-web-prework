@@ -34,7 +34,8 @@ def nyc_pigeon_organizer(data)
     name = sorted_names[i]
     data[:color].each do |key, value|
     result[name][:color] << key.to_s  if value.include?(sorted_names[i])
-     i += 1 
+    end
+    i += 1 
   end
   
   
