@@ -19,11 +19,7 @@ def nyc_pigeon_organizer(data)
   i = 0 
   while i < sorted_names.length do
     name = sorted_names[i]
-    result[name] = {
-      :color => [],
-      :gender => [],
-      :lives => []
-    }
+    result[name] = {}
     i += 1 
   end
   
