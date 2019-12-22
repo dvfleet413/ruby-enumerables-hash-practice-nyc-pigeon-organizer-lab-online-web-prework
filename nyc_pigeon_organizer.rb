@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(data)
   
   i = 0
   while i < sorted_names.length do
-    
+    data[:color]
     i += 1 
   end
   
