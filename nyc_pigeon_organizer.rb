@@ -29,8 +29,9 @@ def nyc_pigeon_organizer(data)
     i += 1 
   end
   
-
-  
+  # Iterate through each name --> within each iteration 
+  # check if name is included in each data[attribute]
+  # add appropriate attribute to the pigeon's hash
   i = 0
   while i < sorted_names.length do
     name = sorted_names[i]
@@ -57,7 +58,5 @@ def nyc_pigeon_organizer(data)
     end
     i += 1 
   end
-  puts "result is..."
-  pp result
   result
 end
