@@ -55,5 +55,6 @@ def nyc_pigeon_organizer(data)
     end
     i += 1 
   end
+  puts "result is #{result}"
   result
 end
